@@ -1,4 +1,4 @@
-from db.connection import CURSOR, CONN
+from db.connections import CURSOR, CONN
 
 class Movie:
     def __init__(self, title, genre, id=None):
