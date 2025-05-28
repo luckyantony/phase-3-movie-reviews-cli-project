@@ -20,3 +20,4 @@ class Movie:
 
     def __str__(self):
         return f"Movie(id={self.id}, title='{self.title}', genre='{self.genre}')"
+    

@@ -26,3 +26,4 @@ for movie in Movie.all():
 print("All reviews:")
 for review in Review.all():
     print(review)
+

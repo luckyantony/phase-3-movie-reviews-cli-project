@@ -22,3 +22,4 @@ CREATE TABLE reviews (
     FOREIGN KEY (reviewer_id) REFERENCES reviewers(id),
     FOREIGN KEY (movie_id) REFERENCES movies(id)
 );
+

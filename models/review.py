@@ -23,3 +23,4 @@ class Review:
 
     def __str__(self):
         return f"Review(id={self.id}, reviewer_id={self.reviewer_id}, movie_id={self.movie_id}, rating={self.rating}, comment='{self.comment}')"
+    
