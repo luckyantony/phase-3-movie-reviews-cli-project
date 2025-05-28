@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+
+*.db
+
+Pipfile.lock
+
+.vscode/
+.idea/
+
+htmlcov/
+*.log
+
+.DS_Store
