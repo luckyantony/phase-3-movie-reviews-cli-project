@@ -35,4 +35,6 @@ A command-line interface (CLI) Python app that allows users to review movies. Bu
 - Practice CLI and database integration
 - Follow best practices for project structure
 
+Built with 💻, ❤️ and ☕ by Luckyantony Leshan
+
 
