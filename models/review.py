@@ -22,6 +22,4 @@ class Review:
         return [cls(row[1], row[2], row[3], row[4], row[0]) for row in rows]
 
     def __str__(self):
-        return f"Review(id={self.id}, reviewer_id={self.
-            reviewer_id}, movie_id={self.movie_id}, rating={self.
-            rating}, comment='{self.comment}')"
+        return f"Review(id={self.id}, reviewer_id={self.reviewer_id}, movie_id={self.movie_id}, rating={self.rating}, comment='{self.comment}')"
