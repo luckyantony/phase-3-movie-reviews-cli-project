@@ -17,6 +17,10 @@ class Reviewer:
         rows = CURSOR.fetchall()
         return [cls(row[1], row[0]) for row in rows]
 
+    @classmethod
+    def delete_by_id(cls, id):
+        CURSOR.execute("DELETE FROM reviewers WHERE id = ?", (id,))
+        CONN.commit()
+
     def __str__(self):
         return f"Reviewer(id={self.id}, name='{self.name}')"
-    

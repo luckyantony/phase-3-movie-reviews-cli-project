@@ -18,6 +18,10 @@ class Movie:
         rows = CURSOR.fetchall()
         return [cls(row[1], row[2], row[0]) for row in rows]
 
+    @classmethod
+    def delete_by_id(cls, id):
+        CURSOR.execute("DELETE FROM movies WHERE id = ?", (id,))
+        CONN.commit()
+
     def __str__(self):
         return f"Movie(id={self.id}, title='{self.title}', genre='{self.genre}')"
-    
